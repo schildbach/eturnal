@@ -286,6 +286,7 @@ HEALTHCHECK \
     --interval=1m \
     --timeout=5s \
     --start-period=5s \
+    --start-interval=1s \
     --retries=3 \
     CMD eturnalctl status
 
